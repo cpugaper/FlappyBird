@@ -40,8 +40,6 @@ public class GameManager : MonoBehaviour
             level += Time.deltaTime / 20;
         }
 
-        Debug.Log(level);
-
         if(Input.GetMouseButtonDown(0) && isGameOver)
         {
             RestartGame(); 
